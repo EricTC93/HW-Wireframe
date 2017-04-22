@@ -17,22 +17,24 @@ header, nav, footer {
 
 section {
 	background-color: #ebebeb;
-	max-width: 495px;
+	max-width: 50%;
 	padding: 20px;
 	margin-top: 7px;
 	margin-bottom: 7px;
+	float: left;
 }
 
 aside {
 	background-color: #ebebeb;
+	max-width: 50%;
 	padding: 20px;
-	margin-top: 7px;
-	margin-bottom: 7px;
+	margin: 7px;
+	float: left;
 }
 
 article {
 	background-color: #777;
-	max-width: 400px;
+	/*max-width: 400px;*/
 	padding: 20px;
 	margin: 7px auto;
 }
@@ -54,4 +56,8 @@ h2 {
 
 h3 {
 	font-size: 22px;
+}
+
+.clear {
+	clear: both;
 }
